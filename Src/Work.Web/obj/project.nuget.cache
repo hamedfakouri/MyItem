@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "a0IZ08yljZYn4c3y+xJ3B7F7U5naK9lmfMWtSikTohkXEQGPWMaAJs+Krc3N1QbTmvacLTEZZXFeI0ipomQNzg==",
+  "dgSpecHash": "IoGRwW4ImZ2IsW5TUBstGO54UbZTAQXpCm0op5sOTUUIVSoiPDr9+YTJ0DFUS0laLw6pKLntvGzfVHCeHifKlQ==",
   "success": true,
   "projectFilePath": "E:\\projects\\learning\\Work\\Work\\Src\\Work.Web\\Work.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\5.0.2\\microsoft.aspnetcore.authentication.google.5.0.2.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
   ],
   "logs": []
