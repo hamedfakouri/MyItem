@@ -31,7 +31,9 @@ namespace Work.Web
         {
             if (env.IsDevelopment())
             {
+
                 app.UseDeveloperExceptionPage();
+                //hamed
             }
             else
             {
