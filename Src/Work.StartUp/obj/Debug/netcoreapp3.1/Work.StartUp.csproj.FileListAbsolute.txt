@@ -1,0 +1,13 @@
+E:\projects\learning\Work\Work\Src\Work.StartUp\bin\Debug\netcoreapp3.1\Work.StartUp.exe
+E:\projects\learning\Work\Work\Src\Work.StartUp\bin\Debug\netcoreapp3.1\Work.StartUp.deps.json
+E:\projects\learning\Work\Work\Src\Work.StartUp\bin\Debug\netcoreapp3.1\Work.StartUp.runtimeconfig.json
+E:\projects\learning\Work\Work\Src\Work.StartUp\bin\Debug\netcoreapp3.1\Work.StartUp.runtimeconfig.dev.json
+E:\projects\learning\Work\Work\Src\Work.StartUp\bin\Debug\netcoreapp3.1\Work.StartUp.dll
+E:\projects\learning\Work\Work\Src\Work.StartUp\bin\Debug\netcoreapp3.1\Work.StartUp.pdb
+E:\projects\learning\Work\Work\Src\Work.StartUp\obj\Debug\netcoreapp3.1\Work.StartUp.csprojAssemblyReference.cache
+E:\projects\learning\Work\Work\Src\Work.StartUp\obj\Debug\netcoreapp3.1\Work.StartUp.AssemblyInfoInputs.cache
+E:\projects\learning\Work\Work\Src\Work.StartUp\obj\Debug\netcoreapp3.1\Work.StartUp.AssemblyInfo.cs
+E:\projects\learning\Work\Work\Src\Work.StartUp\obj\Debug\netcoreapp3.1\Work.StartUp.csproj.CoreCompileInputs.cache
+E:\projects\learning\Work\Work\Src\Work.StartUp\obj\Debug\netcoreapp3.1\Work.StartUp.dll
+E:\projects\learning\Work\Work\Src\Work.StartUp\obj\Debug\netcoreapp3.1\Work.StartUp.pdb
+E:\projects\learning\Work\Work\Src\Work.StartUp\obj\Debug\netcoreapp3.1\Work.StartUp.genruntimeconfig.cache

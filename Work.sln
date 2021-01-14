@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{7649618B-1016-4D48-80EC-493C004229E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Work.Web", "Src\Work.Web\Work.Web.csproj", "{34402A15-92D3-4ED9-92E1-FDD2BF76C125}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34402A15-92D3-4ED9-92E1-FDD2BF76C125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34402A15-92D3-4ED9-92E1-FDD2BF76C125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34402A15-92D3-4ED9-92E1-FDD2BF76C125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34402A15-92D3-4ED9-92E1-FDD2BF76C125}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34402A15-92D3-4ED9-92E1-FDD2BF76C125} = {7649618B-1016-4D48-80EC-493C004229E2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B3F6F1B-7F4B-4DC3-8CF6-585325783B04}
+	EndGlobalSection
+EndGlobal
