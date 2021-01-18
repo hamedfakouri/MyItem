@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -58,16 +59,16 @@ namespace Work.Web.Views
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([FromForm]CourseViewModel course)
+        public async Task<IActionResult> Create(CourseViewModel course)
         {
             if (!ModelState.IsValid) return View(course);
             var model = course.Map();
             if (course.CourseImage != null)
             {
-                model.ImageUrl = Uploader.UploadedFile(course.CourseImage, "Course", WebHostEnvironment);
+                model.ImageUrl = Uploader.UploadedFile(course.CourseImage, "images/courses", WebHostEnvironment);
             }
 
-            _context.Add(course.Map());
+            _context.Add(model);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }

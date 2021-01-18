@@ -15,8 +15,8 @@ namespace Work.Web.ViewModels
         public string Details { get; set; }
         public DateTime CreateDate { get; set; }
 
-        [Required(ErrorMessage = "Please choose profile image")]
-        [Display(Name = "Profile Picture")]
+        //[Required(ErrorMessage = "Please choose profile image")]
+        //[Display(Name = "Profile Picture")]
         public IFormFile CourseImage { get; set; }
     }
 }

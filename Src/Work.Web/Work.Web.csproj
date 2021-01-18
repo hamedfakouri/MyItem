@@ -28,4 +28,8 @@
     <PackageReference Include="TinyMCE" Version="5.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\courses\" />
+  </ItemGroup>
+
 </Project>

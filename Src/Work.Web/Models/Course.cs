@@ -11,7 +11,7 @@ namespace Work.Web.Models
         public string Details { get; set; }
         public DateTime CreateDate { get; set; }
         public IEnumerable<Teacher> Teachers { get; set; }
-        public IEnumerable<Course> Courses { get; set; }
+        public IEnumerable<CourseItem> CourseItems { get; set; }
         public string ImageUrl { get; set; }
     }
 }

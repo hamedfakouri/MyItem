@@ -20,10 +20,9 @@ namespace Work.Web.Helpers
                 string uploadsFolder = Path.Combine(env.WebRootPath, path);
                 uniqueFileName = Guid.NewGuid() + "_" + image.FileName;
                 string filePath = Path.Combine(uploadsFolder, uniqueFileName);
-                using (var fileStream = new FileStream(filePath, FileMode.Create))
-                {
-                   image.CopyTo(fileStream);
-                }
+                using var fs = File.Create(filePath);
+                image.CopyTo(fs);
+                fs.Flush();
             }
             return uniqueFileName;
         }
